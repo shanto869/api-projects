@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meals</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="text-center container">
+    <header>
+        <h1 class="text-warning">Explore My Meals</h1>
+    </header>
+
+    <main>
+        <section class="my-4">
+            <input id="search-field" class="p-1" type="text" placeholder="Search Your Meals">
+            <button onclick="searchMeal()" class="btn btn-primary">Search</button>
+        </section>
+
+        <section>
+            <div id="display-meal-container" style="width: 22rem;">
+
+            </div>
+        </section>
+
+        <section>
+            <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/meal.js"></script>
+</body>
+
+</html>

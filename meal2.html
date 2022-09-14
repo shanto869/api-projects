@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meals</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="container text-center">
+    <header>
+        <h1>Explore Your Meal</h1>
+    </header>
+
+    <main>
+        <section class="my-4">
+            <input id="search-field" class="p-1" type="text" placeholder="Search Your Meal">
+            <button onclick="searchMealBtn()" class="btn btn-primary px-4">Search</button>
+        </section>
+
+        <section>
+            <div id="meals-Container" class="row row-cols-1 row-cols-md-3 g-3">
+
+            </div>
+        </section>
+
+        <section>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div id="meal-detail-container" class="modal-content">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/meal2.js"></script>
+</body>
+
+</html>

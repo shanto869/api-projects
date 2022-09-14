@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Users</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        #user-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .user-style {
+            padding: 5px;
+            background: rgb(162, 189, 205);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body class="text-center">
+    <header>
+        <h1>Random Users</h1>
+    </header>
+
+    <main class="container ">
+        <section>
+            <div id="user-container">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="js/random-user.js"></script>
+    <!-- <script src="js/random.js"></script> -->
+</body>
+
+</html>
